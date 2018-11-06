@@ -29,7 +29,17 @@ couldn't locate lint-gradle-api-26.1.2.jar for flutter project
 
 解决方案
 
+https://www.jianshu.com/p/2178ed233361
+
+### flutter packages get error
+
 ```
-# 尝试通过更新解决，失败
-# 暂无解决方案
+chenyangdeMacBook-Pro:flutter_example chenyang$ flutter packages get
+Running "flutter packages get" in flutter_example...
+Invalid request method
+pub get failed (69) -- attempting retry 1 in 1 second...
 ```
+
+解决方案：
+
+使用没有开通代理的terminal进行安装
